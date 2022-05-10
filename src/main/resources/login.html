@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- === Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <title>Get2Play</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Login</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Username" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Senha" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Lembrar-me</label>
+                        </div>
+
+                        <!--<a href="#" class="text">Forgot password?</a>-->
+                    </div>
+
+                    <div class="input-field button">
+                        <a href="planos.html"><input type="button" value="Entrar"></a>
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Não tem uma conta?
+                        <a href="#" class="text signup-link">Cadastre-se</a>
+                    </span>
+                </div>
+                <a href="index.html"><i class="bi bi-arrow-left-circle-fill voltar" aria-hidden="true"></i></a>
+            </div>
+
+            <!-- Registration Form -->
+            <div class="form signup">
+                <span class="title">Cadastro</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Entre com o username" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Entre com o Steam ID" required>
+                        <i class="bi bi-steam"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Senha" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Confirme a senha" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <!--<div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="sigCheck">
+                            <label for="sigCheck" class="text">Remember me</label>
+                        </div>
+                        
+                        <a href="#" class="text">Forgot password?</a>
+                    </div>-->
+
+                    <div class="input-field button">
+                        <input type="button" value="Cadastrar">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span id="formSwap" class="text">Já possui conta?
+                        <a href="#" class="text login-link">Login</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

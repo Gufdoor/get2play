@@ -1,0 +1,24 @@
+.logo {
+    color: white !important;
+}
+
+body{
+    background-color: #191824 !important;
+}
+
+.btPlano {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+.card {
+    padding: 50px;
+}
+.plans {
+    margin: 20px;
+}
+html, body 
+{ 
+ height: 100%;
+ overflow: hidden
+}
