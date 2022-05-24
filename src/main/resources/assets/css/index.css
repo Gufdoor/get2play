@@ -10,3 +10,34 @@ body{
     color: white;
     text-decoration: none;
 }
+
+.footer {
+    background-color: #191824;
+    padding: 30px;
+  }
+  
+.footer p {
+  /* background-color: #1F2835; */
+  color: #ffffff;
+  text-align: center;
+}
+
+.g2p .logo {
+  /* margin: 0 auto; */
+  padding-bottom: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+  
+@media screen and (max-width: 768px) {
+  .footer p {
+    font-size: small;
+    margin-top: 5%;
+  }
+
+  footer img {
+    max-width: 25%;
+  }
+}
