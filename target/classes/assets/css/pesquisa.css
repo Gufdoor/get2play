@@ -7,34 +7,48 @@
 
 /* ---------------------- BODY ---------------------- */
 body {
-    background-color: #191824 !important;
+    /* height: 100%;
+    overflow-x: hidden; */
+    background-color: #75c9bc !important;
     position: relative;
     padding-bottom: 58px;
     min-height: 100vh;
 }
 
 .logo {
-    color: #ffffff !important;
+    color: white !important;
 }
 
-.btPlano {
+.barraNav {
+    background-color: #191824;
+}
+
+.btEnvia {
+    background: #ec635b;
+    background-color: #ec635b !important;
     color: #ffffff;
-    border-color: #ffffff;
-    text-decoration: none;
-    font-size: 17px;
+    text-decoration: none !important;
 }
 
-.card {
-    background-color: #fabb35;
-    padding: 50px;
+/* .box {
+    padding-top: 50px;
+    padding-left: 150px;
+} */
+
+legend {
+    color: black;
 }
 
-.plans {
-    margin: 20px;
+/* BODY MAIN */
+main {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
 }
 
 /* ---------------------- FOOTER ---------------------- */
 .footer {
+    background-color: #191824;
     text-align: center;
     padding: 30px;
     position: absolute;
@@ -48,14 +62,14 @@ body {
 }
 
 /* validate if we are going to use a logo image on footer 
-  .footer img {
-    margin: 0 auto;
-    padding-bottom: 2%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 5%;
-  }*/
+.footer img {
+  margin: 0 auto;
+  padding-bottom: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}*/
 
 /* FOOTER MEDIA QUERY */
 @media screen and (max-width: 768px) {
