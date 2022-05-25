@@ -14,23 +14,20 @@ body {
 }
 
 .logo {
-    color: #ffffff !important;
+    color: white !important;
 }
 
-.btPlano {
-    color: #ffffff;
-    border-color: #ffffff;
+/* validate if we need this 
+.btlogin {F
+    color: white;
     text-decoration: none;
-    font-size: 17px;
-}
+} */
 
-.card {
-    background-color: #fabb35;
-    padding: 50px;
-}
-
-.plans {
-    margin: 20px;
+/* BODY MAIN */
+main {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
 }
 
 /* ---------------------- FOOTER ---------------------- */
@@ -48,14 +45,14 @@ body {
 }
 
 /* validate if we are going to use a logo image on footer 
-  .footer img {
-    margin: 0 auto;
-    padding-bottom: 2%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 5%;
-  }*/
+.footer img {
+  margin: 0 auto;
+  padding-bottom: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}*/
 
 /* FOOTER MEDIA QUERY */
 @media screen and (max-width: 768px) {
@@ -65,7 +62,7 @@ body {
     }
 
     /* validate if we are going to use a logo image on footer 
-    .footer img {   
-      max-width: 25%;
+    .footer img {
+        max-width: 25%;
     }*/
 }
