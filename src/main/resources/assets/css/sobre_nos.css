@@ -7,7 +7,7 @@
 
 /* ---------------------- BODY ---------------------- */
 body {
-    background-color: #191824 !important;
+    background-color: #191824;
     position: relative;
     padding-bottom: 58px;
     min-height: 100vh;
@@ -17,11 +17,26 @@ body {
     color: white !important;
 }
 
-/* validate if we need this 
-.btlogin {F
-    color: white;
-    text-decoration: none;
-} */
+.aboutUsText .title {
+    color: #ffffff;
+    padding-bottom: 70px;
+}
+
+.aboutUsText .text {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.aboutUsText .image {
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
 
 /* BODY MAIN */
 main {
