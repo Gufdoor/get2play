@@ -9,7 +9,8 @@
 body {
     /* height: 100%;
     overflow-x: hidden; */
-    background-color: #75c9bc !important;
+    background-color: #191824;
+    background-image: url(../images/background_pacman.png);
     position: relative;
     padding-bottom: 58px;
     min-height: 100vh;
@@ -17,6 +18,10 @@ body {
 
 .logo {
     color: white !important;
+}
+
+.footer {
+    background-color: #191824;
 }
 
 .barraNav {
@@ -28,6 +33,18 @@ body {
     background-color: #ec635b !important;
     color: #ffffff;
     text-decoration: none !important;
+}
+
+.cont .col legend {
+    color: #ffffff;
+}
+
+.cont .recBox legend {
+    color: #ffffff;
+}
+
+.cont .recBox #recName {
+    color: #ffffff;
 }
 
 /* .box {

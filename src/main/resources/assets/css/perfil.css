@@ -7,7 +7,8 @@
 
 /* ---------------------- BODY ---------------------- */
 body {
-    background-color: #75c9bc;
+    background-color: #191824;
+    background-image: url(../images/background_pacman.png);
     position: relative;
     padding-bottom: 58px;
     min-height: 100vh;
@@ -15,6 +16,10 @@ body {
 
 .logo {
     color: #ffffff !important;
+}
+
+.footer {
+    background-color: #191824;
 }
 
 .barraNav {
@@ -39,9 +44,14 @@ main section {
 }
 
 .profile .info p {
+    color: #ffffff;
     border: 0;
     padding: 0px;
     margin: 0;
+}
+
+.profile .game_history {
+    color: #ffffff;
 }
 
 /* BODY MAIN - MEDIA QUERY */
