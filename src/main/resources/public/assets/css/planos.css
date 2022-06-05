@@ -1,0 +1,71 @@
+/* ---------------------- GENERAL ---------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------- BODY ---------------------- */
+body {
+    background-color: #191824 !important;
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+}
+
+.logo {
+    color: #ffffff !important;
+}
+
+.btPlano {
+    color: #ffffff;
+    border-color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.card {
+    background-color: #fabb35;
+    padding: 50px;
+}
+
+.plans {
+    margin: 20px;
+}
+
+/* ---------------------- FOOTER ---------------------- */
+.footer {
+    text-align: center;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* validate if we are going to use a logo image on footer 
+  .footer img {
+    margin: 0 auto;
+    padding-bottom: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }*/
+
+/* FOOTER MEDIA QUERY */
+@media screen and (max-width: 768px) {
+    .footer p {
+        font-size: small;
+        margin-top: 5%;
+    }
+
+    /* validate if we are going to use a logo image on footer 
+    .footer img {   
+      max-width: 25%;
+    }*/
+}
